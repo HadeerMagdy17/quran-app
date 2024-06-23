@@ -1,0 +1,11 @@
+body {
+  
+  color-scheme: light dark;
+  background-color: #f4f4f4;
+  font-family: "Montserrat", sans-serif;
+}
+/* ***************** */
+.backgroundImage {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/012/690/173/non_2x/islamic-ornament-persian-motiff-3d-ramadan-islamic-round-pattern-elements-geometric-circular-ornamental-arabic-symbol-blue-background-vector.jpg');
+  background-size: cover;
+  background-position: center;}
