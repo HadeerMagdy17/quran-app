@@ -21,7 +21,7 @@ const Loading: React.FC<LoadingProps> = ({ loading }) => {
   );
 };
 
-const styles = {
+const styles: { [key: string]: React.CSSProperties } = {
   loaderWrapper: {
     display: "flex",
     justifyContent: "center",
