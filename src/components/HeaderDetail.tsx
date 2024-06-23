@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { LuBadgeInfo } from "react-icons/lu";
+// import { LuBadgeInfo } from "react-icons/lu";
 import { IoChevronBack } from "react-icons/io5";
 import { HiPlayCircle } from "react-icons/hi2";
 import { Link } from "react-router-dom";
