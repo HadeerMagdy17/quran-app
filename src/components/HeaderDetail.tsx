@@ -14,17 +14,17 @@ const HeaderDetail: React.FC<{ onShow: () => void }> = ({ onShow }) => {
     suratSelanjutnya: { nomor: nextSurahNomor, namaLatin: nextNamaLatin },
     suratSebelumnya: { nomor: prevSurahNomor, namaLatin: prevNamaLatin },
     namaLatin,
-    arti,
+    // arti,
     tempatTurun,
     jumlahAyat,
   } = quranState.surahDetail;
 
-  const showTafsirModalHandler = () => {
-    if (modal.current) {
-      modal.current.open?.();
-    }
-    return;
-  };
+  // const showTafsirModalHandler = () => {
+  //   if (modal.current) {
+  //     modal.current.open?.();
+  //   }
+  //   return;
+  // };
 
   // console.log(quranState.surahDetail.audioFull);
   return (

@@ -6,9 +6,9 @@ interface SurahType {
   nomor: number;
   namaLatin: string;
   nama: string;
-  arti: string;
+  // arti: string;
   tempatTurun: string;
-  jumlahAyat: number;
+  // jumlahAyat: number;
   surahs: any;
 }
 
@@ -16,9 +16,9 @@ const ItemsSurah: React.FC<SurahType> = ({
   nomor,
   namaLatin,
   nama,
-  arti,
+  // arti,
   tempatTurun,
-  jumlahAyat,
+  // jumlahAyat,
   surahs,
 }) => {
   return (

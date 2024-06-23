@@ -18,7 +18,7 @@ const ItemsDetailSurat: React.FC<SurahDetailProps> = ({ surahDetail }) => {
           {/* <h2>{surahDetail.tempatTurun}</h2> */}
           <HeaderDetail onShow={() => setShowAudio(!showAudio)} />
           {surahDetail.ayat?.map(
-            ({ teksArab, nomorAyat, teksLatin, teksIndonesia }: any) => {
+            ({ teksArab, nomorAyat }: any) => {
               return (
                 <div className="py-2 w-11/12 sm:w-3/4" key={nomorAyat}>
                   <div className="bg-white p-7 shadow-sm rounded-md border ">
